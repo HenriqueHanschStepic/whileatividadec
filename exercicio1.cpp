@@ -2,7 +2,7 @@
 
 int main(){
   int num;
-  
+  //Numero Par ou Impar
   do{
     printf("Numero");
     scanf("%d",&num);
@@ -16,5 +16,5 @@ int main(){
       break;
     }
   }while(true);
-  system("PAUSE);
+  return 0;
 }
